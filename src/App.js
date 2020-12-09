@@ -15,19 +15,22 @@ let resourceList = resourceData[resourceType];
 
   return (
     <div className="App">
-      <h1>JavaScript</h1>
-      <h2>Free Learning Resources</h2>
-      {resourceTypeArray.map((type) => {
-        return <button onClick={() => resourceTypeChange(type)}>{type}</button>;
-      })}
-      {resourceList.map((data) => {
-        return (
-          <div>
-            <p>{data.name}</p>
-            <a href={data.link}>Link</a>
-          </div>
-        );
-      })}
+     <div className="container">
+      <h1 className="heading">JavaScript</h1>
+        <h2 className="subheading">Free Learning Resources</h2>
+        {resourceTypeArray.map((type) => {
+          return <button className="btnType" onClick={() => resourceTypeChange(type)}>{type}</button>;
+        })}
+        <hr />
+        {resourceList.map((data) => {
+          return (
+            <div className="content">
+              <p className="content__name">{data.name}</p>
+              <a className="content__link"href={data.link}><span>👉🌐</span></a>
+            </div>
+          );
+        })}
+     </div>
     </div>
   );
 }

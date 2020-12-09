@@ -37,24 +37,24 @@ const resourceData = {
       link: "https://github.com/getify/You-Dont-Know-JS"
     }
   ],
-  Instagram: [
-    {
-      name: "Tanay Pratap",
-      link: "https://www.instagram.com/tanaypratap/"
-    },
-    {
-      name: "neogcamp",
-      link: "https://www.instagram.com/neogcamp/"
-    },
-    {
-      name: "JS Interview",
-      link: "https://www.instagram.com/javascript_interviews/"
-    },
-    {
-      name: "Javascript Essentials",
-      link: "https://www.instagram.com/javascriptessentials/"
-    }
-  ]
+  // Instagram: [
+  //   {
+  //     name: "Tanay Pratap",
+  //     link: "https://www.instagram.com/tanaypratap/"
+  //   },
+  //   {
+  //     name: "neogcamp",
+  //     link: "https://www.instagram.com/neogcamp/"
+  //   },
+  //   {
+  //     name: "JS Interview",
+  //     link: "https://www.instagram.com/javascript_interviews/"
+  //   },
+  //   {
+  //     name: "Javascript Essentials",
+  //     link: "https://www.instagram.com/javascriptessentials/"
+  //   }
+  // ]
 };
 
 export default resourceData;
